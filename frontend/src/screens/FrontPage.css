@@ -1,0 +1,58 @@
+.first_block {
+	position: relative;
+	box-shadow: 0 5px 10px 1px rgba(134, 134, 134, 0.466);
+	height: 350px;
+}
+
+.first_block_img {
+	position: absolute;
+	top: -80px;
+}
+
+.first_block_num {
+	position: absolute;
+	right: 20px;
+	top: -30px;
+}
+
+.block_heading {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 30px 10px;
+	padding-top: 150px;
+}
+
+.block_text {
+	font-size: 18px;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+.features_para {
+	font-size: 20px;
+	line-height: 1.7;
+}
+
+.features_heading {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+ul li:before {
+	content: "✓  ";
+	color: orange;
+	font-size: 20px;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+ul li:last-child {
+	margin-bottom: 0px;
+}
